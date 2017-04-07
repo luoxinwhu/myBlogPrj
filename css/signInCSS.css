@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    color:#ff3204;
+    font-style: italic;
+}
+
+form{
+    width: 540px;
+    height: 370px;
+    margin: 50px auto;
+    border: 2px solid gainsboro;
+    box-shadow: #363636 5px 5px 15px;
+}
+div#title{
+    height: 30px;
+    color: #3a3a3a;
+    font-size:24px;
+    font-family: "华文彩云";
+    /*line-height: 29px;*/
+    text-align: center;
+    padding-top: 20px;
+}
+
+div#msg{
+    width:480px;
+    height: 180px;
+    margin: 20px auto;
+    font-size: 14px;
+    color: #656565;
+}
+div#msg input{
+    width:240px;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+span{
+    width: 215px;
+    font-size: 12px;
+    color: #ff3204;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 15px;
+}
+span#valErrMsg{
+   margin-left: 10px;
+}
+
+
+div#msgSymbNum{
+    visibility: hidden;
+    width: 80px;
+    height: 14px;
+    font-size: 12px;
+    color:orangered;
+    line-height: 12px;
+    margin-top: 3px;
+}
+
+
+div#msg ul{
+    width: 249px;
+    list-style: none;
+    margin-top: 0;
+}
+div#msg ul li{
+    display: inline-block;
+    width: 81px;
+    background-color: darkgrey;
+    border: 1px solid gainsboro;
+    opacity: 0.8;
+    color:white;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: center;
+}
+div#msg input[name="validateCode"] {
+    margin-top: 20px;
+}
+div#msg input[name="code"]{
+    visibility: hidden;
+    width: 60px;
+    height: 28px;
+    margin-left: 15px;
+    color:#656565;
+    font-size: 14px;
+    text-align: center;
+    background-color: white;
+    border: 2px dashed #656565;
+    /*vertical-align: bottom;*/
+}
+
+
+
+
+div#msg input[type="submit"] {
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin-top:30px;
+    background-color: #8B0000;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+

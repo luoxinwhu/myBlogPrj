@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img{
+            width: 20px;
+            height: 20px;
+
+        }
+        img:hover{
+            cursor: pointer;
+        }
+        div.test{
+            width: 60px;
+            height: 40px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <span><img src="../images/like_icon.gif"><span class="like_num">like_num</span></span>
+    <div class="test"></div>
+    <script type="text/javascript" src="../js/jquery-3.2.0.js"></script>
+    <script>
+        $('span img').click(function() {
+           $('div.test').slideToggle("slow");
+        });
+    </script>
+</body>
+</html>

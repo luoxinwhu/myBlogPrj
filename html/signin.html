@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>账号注册</title>
+    <link type="text/css" href="../css/signInCSS.css" rel="stylesheet">
+    <script type="text/javascript" src="../js/checkForm.js"></script>
+</head>
+<body>
+<form name="login" method="post" action="index.html">
+    <div id="title">用户登录</div>
+
+    <div id="msg">
+
+        <input type="text" id="userID" placeholder="手机/邮箱/用户名"><span id="userErrMsg"></span><br/>
+        <div id="msgSymbNum"></div>
+        <input type="password" id="password" placeholder="输入密码"><span id="pwdErrMsg"></span><br/>
+        <ul><li>弱</li><li>中</li><li>强</li></ul><br/>
+        <input type="password" id="passwordCheck" placeholder="再次输入密码" disabled><span id="pwdCheckErrMsg"></span><br/>
+
+        <input type="text" name="validateCode" id="validateCode" placeholder="输入验证码">
+        <input type="button" name="code" id="code" onclick="createCode()"><span id="valErrMsg"></span><br/>
+
+
+
+        <input type="submit" value="登录">
+    </div>
+</form>
+
+
+
+
+
+</body>
+</html>
